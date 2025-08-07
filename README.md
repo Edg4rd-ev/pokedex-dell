@@ -61,7 +61,7 @@ Construído como teste técnico para vaga de Flutter Developer.
 1. **Clone o repositório**
 
     ```bash
-    git clone https://github.com/your-username/pokedex_dell.git
+    git clone https://github.com/Edg4rd-ev/pokedex-dell.git
     cd pokedex_dell
     ```
 2. **Instale as dependências**
