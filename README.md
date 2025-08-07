@@ -10,7 +10,6 @@ Construído como teste técnico para vaga de Flutter Developer.
 ## Sumário
 
 - [Funcionalidades](#funcionalidades)
-- [Demonstração](#demonstração)
 - [Começando](#começando)
     - [Pré-requisitos](#pré-requisitos)
     - [Instalação](#instalação)
@@ -43,8 +42,6 @@ Construído como teste técnico para vaga de Flutter Developer.
 - 🏳️‍🌈 App todo em inglês por padrão
 
 ---
-
-## Demonstração
 
 ![Demonstração do App](lib/app/assets/run_pikachu.gif)
 
