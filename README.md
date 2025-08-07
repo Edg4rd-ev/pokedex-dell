@@ -80,9 +80,6 @@ Construído como teste técnico para vaga de Flutter Developer.
 3. **Android**
     - Adicione app Android com o package name.
     - Baixe `google-services.json` e coloque em `android/app/`.
-4. **iOS**
-    - Adicione app iOS com seu bundle ID.
-    - Baixe `GoogleService-Info.plist` e coloque em `ios/Runner/`.
 5. **Recompile**
 
     ```bash
@@ -97,9 +94,9 @@ Construído como teste técnico para vaga de Flutter Developer.
     flutter run
     ```
 2. Cadastre-se ou faça login (e-mail/senha ou Google).
-3. Navegue pela lista de Pokémon; role para carregar mais.
+3. Navegue pela lista de Pokémon; role para carregar mais (infiniteScroll).
 4. Use os filtros no topo: por tipo ou por nome/ID exato.
-5. Toque em um card para ver detalhes completos.
+5. Toque em um pokemon para ver detalhes completos (nome, descrição, tipo, atributos, fraquezas, habilidades, evoluções e movimentos).
 6. Faça logout pelo botão na tela principal.  
 
 ## Estrutura de Pastas
@@ -115,7 +112,7 @@ lib/
 │   │   ├── auth/            # Controladores, views e widgets do auth
 │   │   └── pokedex/         # Controladores, views e widgets da pokedex
 │   ├── utils/
-    ├── app_module.dart      # Configuração do Flutter Modular
+│   ├── app_module.dart      # Configuração do Flutter Modular
 │   └── app_widget.dart      # Widget principal
 └── main.dart                # Ponto de entrada
 ```
